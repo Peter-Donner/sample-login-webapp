@@ -1,5 +1,19 @@
 # sample-login-webapp
 
+This is a sample application that is based on the Leiningen chestnut application
+template with interactive form authentication.
+
+The authentication does not work with figwheel.
+
+## Build and run
+
+On the command line, type
+
+```
+lein do cljsbuild once, run
+```
+
+Open http://localhost:10555
 
 ## Development
 
@@ -134,7 +148,7 @@ Now your app is running at
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2017
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
